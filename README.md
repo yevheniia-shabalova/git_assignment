@@ -28,6 +28,12 @@ Git is a version control system, it is a command line tool. Github - web-based p
 
 f. What does git diff do?
 
+Git diff is a command that allows to see the differences between versions of the files on different stages.
+
 g. What is the main branch?
 
+Main (previously Master branch) is a primary/default branch in a repository. Usually all other new feature bracnhes created from the main branch and as a result of resolving pull requests - merged to it.
+
 h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the main branch?
+
+No, it is not the best practice because it is hard to track changes. Bettew way is to create a new branch from main, made changes, create pull request (source branch - feature branch, target branch - main) and merge changes.
